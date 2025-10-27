@@ -1,6 +1,6 @@
-/TestProject/node_modules
-/TestProject/TestProject/obj
-/TestProject/TestProject/bin
-/TestProject/TestProject.Tests/obj
-/TestProject/.vs
-/TestProject/TestProject.Tests/bin
+/node_modules
+/TestProject/obj
+/TestProject/bin
+/TestProject.Tests/obj
+/.vs
+/TestProject.Tests/bin
