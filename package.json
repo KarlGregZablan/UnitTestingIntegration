@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test:precommit": "dotnet test --no-restore --nologo --verbosity minimal TestProject.Tests/TestProject.Tests.csproj"
   },
   "keywords": [],
   "author": "",
