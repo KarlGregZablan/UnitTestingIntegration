@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
     "test:precommit": "dotnet build TestProject",
-    "test:prebuild": "dotnet test --no-restore --nologo --verbosity minimal TestProject.Tests/TestProject.Tests.csproj"
+    "test:prepush": "dotnet test --no-restore --nologo --verbosity minimal TestProject.Tests"
   },
   "keywords": [],
   "author": "",
